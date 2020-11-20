@@ -1,0 +1,28 @@
+.ordering {
+    height: 631px;
+    background: url('../img/bg2.jpg') center (center/cover) no-repeat;
+    &__wrapper {
+        width: 100%;
+        padding-top: 190px;
+    }
+    &__subtitle {
+        font-family: 'Roboto';
+        font-weight: 400;
+        font-size: 20px;
+        color: #ffffff;
+    }
+    &__title {
+        margin-top: 14px;
+        font-size: 30px;
+        color: #ffffff;
+    }
+    form {
+        margin-top: 51px;
+    }
+    &__descr {
+        font-weight: 400;
+        font-size: 7px;
+        margin-top: 13px;
+        color: #D0D0D0;
+    }
+}

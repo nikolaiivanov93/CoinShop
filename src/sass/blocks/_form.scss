@@ -1,0 +1,17 @@
+.order {
+    margin-top: 14px;
+    display: flex;
+    justify-content: space-between;
+    input {
+        display: flex;
+        flex-direction: column;
+        width: 212px;
+        height: 37px;
+        border-radius: 20px;
+        outline: none;
+        padding-left: 46px;
+        font-weight: 300;
+        font-size: 14px;
+        color: #000000;
+    }
+}

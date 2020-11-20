@@ -1,0 +1,43 @@
+.header {
+    height: 80px;
+    background-color: #E5E5E5;
+    &__wrapper {
+        width: 100%;
+        padding-top: 25px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__phone {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-end;
+        width: 173px;
+        &-text {
+            font-family: 'Roboto';
+            font-weight: 400;
+            font-size: 9px;
+            line-height: 9px;
+            color: #313131;
+            margin-top: 4px;
+        }
+        &-descr {
+            font-family: 'Roboto';
+            font-weight: 500;
+            font-size: 9px;
+            line-height: 12px;
+            color: #313131;
+        }
+        a {
+            font-family: 'Roboto';
+            line-height: 22px;
+            font-weight: 700;
+            font-size: 22px;
+            color: #313131;
+            &:hover {
+                text-decoration: none;
+                color: $main-color;
+            }
+        }
+    }
+}

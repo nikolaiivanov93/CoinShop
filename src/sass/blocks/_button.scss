@@ -1,0 +1,30 @@
+.btn {
+    width: 140px;
+    height: 37px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: 700;
+    color: #ffffff;
+    transition: 0.5s all;
+    border: none;
+    outline: none;
+    &:hover {
+        color: #ffffff;
+        transform: scale(1.05);
+    }
+    &_collaction {
+        width: 144px;
+        height: 20px;
+        font-weight: 600;
+        line-height: 11px;
+        font-size: 9px;
+        padding-top: 5px;
+        background-color: $main-color;
+        &:hover {
+            transform: scale(1);
+        }
+    }
+    &_button {
+        background-color: $main-color;
+    }
+}

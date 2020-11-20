@@ -1,0 +1,53 @@
+.collaction {
+    min-height: 791px;
+    &__wrapper {
+        padding-top: 72px;
+        width: 100%;
+        position: relative;
+    }
+    &__title {
+        font-size: 26px;
+        line-height: 33px;
+        text-align: center;
+        color: $second-color;
+    }
+    &__subtitle {
+        margin-top: 7px;
+        font-weight: normal;
+        font-size: 16px;
+        color: $second-color;
+        text-align: center;
+    }
+    &__block {
+        position: absolute;
+        transition: 0.5s all;
+        top: 105px;
+        &:hover {
+            transform: scale(1.05);
+        }
+    }
+    &__arrow {
+        position: absolute;
+        top: 7px;
+        right: -15px;
+    }
+    &__coin {
+        padding-top: 28px;
+        display: grid;
+        grid-template-columns: repeat(6, 173px);
+        grid-template-rows: repeat(3, 173px);
+        gap: 21px;
+    }
+    &__img {
+        transition: 0.5s all;
+        img {
+            width: 173px;
+            height: 173px;
+            transition: 0.5s all;
+            &:hover {
+                transform: scale(1.05);
+                filter: drop-shadow(2px 3px 5px black);
+            }
+        }
+    }
+}

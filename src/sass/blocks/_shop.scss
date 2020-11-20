@@ -1,0 +1,94 @@
+.shop {
+    min-height: 790px;
+    background-color: #E5E5E5;
+    &__title {
+        padding-top: 69px;
+        margin: 0;
+        font-size: 26px;
+        line-height: 30px;
+        color: $second-color;
+        text-align: center;
+    }
+    &__subtitle {
+        margin-top: 7px;
+        margin-bottom: 0;
+        text-align: center;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: $second-color;
+    }
+    &__block {
+        display: grid;
+        grid-template-columns: repeat(2, 545px);
+        grid-template-rows: repeat(2, 210px);
+        column-gap: 20px;
+        row-gap: 96px;
+        padding-top: 64px;
+    }
+    &__box {
+        flex-direction: column;
+        display: flex;
+    }
+    &__goods {
+        position: relative;
+        justify-content: space-between;
+        display: flex;
+        width: 560px;
+        height: 204px;
+        &-title {
+            font-family: 'Roboto';
+            font-weight: 500;
+            font-size: 24px;
+            height: 30px;
+            width: 192px;
+            color: $second-color;
+        }
+        &-text {
+            font-weight: 600;
+            font-size: 14px;
+            width: 156px;
+            height: 64px;
+            margin-top: 6px;
+            color: $second-color;
+        }
+        &-price {
+            font-family: 'Roboto';
+            font-weight: 500;
+            font-size: 26px;
+            margin-top: 21px;
+            width: 83px;
+            line-height: 30px;
+        }
+        &-btn {
+            margin-top: 17px;
+            line-height: 21px;
+            background-color: #0B2851;
+            &:hover {
+                transform: scale(1);
+                background-color: $main-color;
+            }
+        }
+        &-img {
+            display: flex;
+            position: relative;
+            top: -7px;
+        }
+        &-coin {
+            position: absolute;
+            z-index: 2;
+            img {
+                width: 225px;
+                height: 224px;
+            }
+        }
+        &-side {
+            position: absolute;
+            left: 146px;
+            img {
+                width: 218px;
+                height: 221px;
+            }
+        }
+    }
+}

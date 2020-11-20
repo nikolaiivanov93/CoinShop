@@ -1,0 +1,46 @@
+.footer {
+    height: 192px;
+    background-color: #2C3746;;
+    &__wrapper {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 44px;
+    }
+    &__block {
+        width: 249px;
+        &-title {
+            font-weight: 400;
+            color: #ffffff;
+            font-size: 14px;
+        }
+        &-phone {
+            font-weight: 600;
+            color: #ffffff;
+            font-size: 14px;
+        }
+        &-text {
+            font-weight: 300;
+            font-size: 10px;
+            color: #ffffff;
+        }
+        &-addr {
+            font-weight: 600;
+            font-size: 14px;
+            color: #ffffff;
+        }
+    }
+    &__title {
+        font-weight: 600;
+        font-size: 13px;
+        color: #ffffff;
+        text-align: center;
+    }
+    &__descr {
+        width: 249px;
+        font-weight: 400;
+        font-size: 14px;
+        color: #ffffff;
+        text-align: right;
+    }
+}
